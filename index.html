@@ -1,0 +1,98 @@
+<!-- this is the guess the no game -->
+
+<!-- this is in js not in java i have to convert it so that i can send to people  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number Game</title>
+
+    <style>
+        body {
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .game-container {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.2);
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #ff4747;
+            color: white;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff1f1f;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        #reveal {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #00ff9d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🔥 Guess The Number 🔥</h1>
+        <p>Enter a number between 0–100</p>
+
+        <input type="number" id="userInput" placeholder="Your guess..." />
+        <button onclick="checkGuess()">Submit</button>
+
+        <p id="message"></p>
+        <p id="reveal"></p>
+    </div>
+
+    <script>
+        let myNum = Math.floor(Math.random() * 100);
+        let gameOver = false;
+
+        function checkGuess() {
+            if (gameOver) return;
+
+            let userNum = Number(document.getElementById("userInput").value);
+            let msg = document.getElementById("message");
+            let reveal = document.getElementById("reveal");
+
+            if (userNum === myNum) {
+                msg.innerHTML = "😎 Great job! You nailed it 🔥🔥";
+                reveal.innerHTML = "My number was: " + myNum;
+                gameOver = true;
+            } else if (userNum > myNum) {
+                msg.innerHTML = "Your number is large 😏";
+            } else if (userNum < myNum) {
+                msg.innerHTML = "Your number is small 🙂‍↔️";
+            }
+        }
+    </script>
+
+</body>
+</html>
