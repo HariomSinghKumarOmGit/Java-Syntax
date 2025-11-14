@@ -106,6 +106,7 @@ public class aiova {
 
 
          */
+        /*
         //logical operator
         // conditional
         int a= 60;
@@ -129,6 +130,37 @@ public class aiova {
         } else {
             System.out.println("Not Adult");
         }
+
+
+         */
+        // conditional statement
+        // pen = 10 , notebook = 40
+
+        Scanner sc = new Scanner(System.in);
+        int cash = sc.nextInt();
+        if(cash < 10) {
+            System.out.println("cannot by anything");
+        }else if(cash > 10 && cash < 40){
+            System.out.println("You can only buy pen");
+        }else if (cash >= 40 && cash < 50) {
+            System.out.println("Either 4pen or Notebook");
+        }else if(cash >= 50) {
+            System.out.println("So much money, get both");
+        }
+
+        // switch
+        int day = 1;
+        switch(day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            default:
+                System.out.println("Wed - Sun");
+        }
+
 
 
 
