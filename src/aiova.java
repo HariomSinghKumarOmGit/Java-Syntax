@@ -115,8 +115,20 @@ public class aiova {
         }else {
             System.out.println("ReTry");
         }
+// logical or
+        if (a> 50 || b>50) {
+            System.out.println("You Got it");
+        } else {
+            System.out.println("Run Away");
+        }
 
-
+        // not operator
+        boolean isAdult = true;
+        if(isAdult ==  true) {
+            System.out.println("is Adult");
+        } else {
+            System.out.println("Not Adult");
+        }
 
 
 
