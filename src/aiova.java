@@ -191,6 +191,7 @@ public class aiova {
 
 
          */
+        /*
         int num = 0;
         Scanner sc = new Scanner(System.in);
         do {
@@ -201,6 +202,35 @@ public class aiova {
         }while(num > 50);
 
         System.out.println("The END");
+
+         */
+        /*
+        // Break && Continue
+        int i=0;
+        while (true){
+            if(i==3){
+                i=i+1;
+                continue;
+            }
+            System.out.println(i);
+            i++;
+            if(i>5){
+                break;
+            }
+        }
+
+         */
+        // Exception Handling
+
+
+
+
+
+
+
+
+
+
 
 
 
