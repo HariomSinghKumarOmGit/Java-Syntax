@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+import java.util.Scanner;
 
 
 public class aiova {
@@ -43,6 +43,80 @@ public class aiova {
  */
         // casting
         // capacity of holding values like double has more capacity compare to int
+/*
+        // constant
+        int age = 30;
+        age = 31;
+        age = 32;
+
+        final float Pi = 3.14f;
+
+//        PI = 1.23f;
+
+ */
+        /*
+
+        // operators
+        int a= 1;
+        int b= 2;
+        int diff = a-b;
+        System.out.println(diff);
+        // modulo --> used to find the reminder in div
+
+         */
+/*
+        // for input
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Write your Name: ");
+        String name = sc.next();
+        System.out.println(name);
+
+ */
+
+        //comparison Operator
+        // a ==b
+        // a! = b not equal
+        // a>b
+        // a>=b
+        // Conditional statement  if else
+        /*
+        boolean isSunUp = false;
+        if(isSunUp == true){
+            System.out.println("day");
+        }else{
+            System.out.println("night");
+        }
+
+         */
+        /*
+
+        // if else
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Write you'r age : ");
+        int age = sc.nextInt();
+
+        if(age == 18) {
+            System.out.println("Congo For u'r First vote");
+        }else if(age > 18) {
+            System.out.println("Cant vote");
+        } else{
+            System.out.println("You can't vote dear");
+        }
+
+
+         */
+        //logicla operator
+        // conditional
+
+
+
+
+
+
+
+
+
 
 
     }
