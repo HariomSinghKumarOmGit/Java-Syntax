@@ -106,8 +106,15 @@ public class aiova {
 
 
          */
-        //logicla operator
+        //logical operator
         // conditional
+        int a= 60;
+        int b = 70;
+        if(a>50 && b>50) {
+            System.out.println("whats up");
+        }else {
+            System.out.println("ReTry");
+        }
 
 
 
