@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -190,6 +191,16 @@ public class aiova {
 
 
          */
+        int num = 0;
+        Scanner sc = new Scanner(System.in);
+        do {
+            System.out.println("input a no : ");
+            num = sc.nextInt();
+            System.out.println("Here is your no :" + num );
+
+        }while(num > 50);
+
+        System.out.println("The END");
 
 
 
