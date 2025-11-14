@@ -220,7 +220,20 @@ public class aiova {
         }
 
          */
-        // Exception Handling
+        /*
+        // Exception Handling try -catch
+        int[] marks = {97, 98, 34};
+        try{
+
+        System.out.println(marks[5]);
+        } catch (Exception exception) {
+            // do something after catching
+        }
+        System.out.println("Aarav" );
+
+         */
+
+
 
 
 
