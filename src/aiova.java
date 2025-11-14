@@ -135,6 +135,7 @@ public class aiova {
          */
         // conditional statement
         // pen = 10 , notebook = 40
+        /*
 
         Scanner sc = new Scanner(System.in);
         int cash = sc.nextInt();
@@ -161,6 +162,34 @@ public class aiova {
                 System.out.println("Wed - Sun");
         }
 
+         */
+        /*
+        // loops
+
+        for(int i=100; i>= 1; i--){
+            System.out.println(i);
+        }
+
+         */
+/*
+        //while loop
+        int j = 100;
+        while(j >= 1){
+            System.out.println(j);
+            j = j-1;
+        }
+
+ */
+        /*
+        // Do while
+        int k = 100;
+        do{
+            System.out.println(k);
+            k = k-1;
+        }while(k>0);
+
+
+         */
 
 
 
